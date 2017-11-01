@@ -48,6 +48,10 @@
       <Project>{F61FAD5D-3D88-40D4-BEA9-E492867160E0}</Project>
       <Name>ExtensibilityInterface</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ExtensibilityInterface\ExtensibilityInterface.csproj">
+      <Project>{f61fad5d-3d88-40d4-bea9-e492867160e0}</Project>
+      <Name>ExtensibilityInterface</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

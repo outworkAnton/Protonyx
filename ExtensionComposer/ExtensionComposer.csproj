@@ -44,7 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ExtensibilityInterface\ExtensibilityInterface.csproj">
-      <Project>{F61FAD5D-3D88-40D4-BEA9-E492867160E0}</Project>
+      <Project>{f61fad5d-3d88-40d4-bea9-e492867160e0}</Project>
       <Name>ExtensibilityInterface</Name>
     </ProjectReference>
   </ItemGroup>

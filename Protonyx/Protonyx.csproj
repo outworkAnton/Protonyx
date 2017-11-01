@@ -102,5 +102,19 @@
   <ItemGroup>
     <Resource Include="if_Settings_104218.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ExtensibilityInterface\ExtensibilityInterface.csproj">
+      <Project>{f61fad5d-3d88-40d4-bea9-e492867160e0}</Project>
+      <Name>ExtensibilityInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ExtensionComposer\ExtensionComposer.csproj">
+      <Project>{3d625794-2df4-4d7e-b044-81682cb50285}</Project>
+      <Name>ExtensionComposer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ExtensionLoader\ExtensionLoader.csproj">
+      <Project>{25903026-0eae-4bec-a43b-0beadcb7a954}</Project>
+      <Name>ExtensionLoader</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

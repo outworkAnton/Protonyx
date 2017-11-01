@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Protonyx", "Protonyx\Protonyx.csproj", "{7425187B-B4D3-48A5-AE15-4268C2F0A44D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionLoader", "ExtensionLoader\ExtensionLoader.csproj", "{25903026-0EAE-4BEC-A43B-0BEADCB7A954}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensibilityInterface", "ExtensibilityInterface\ExtensibilityInterface.csproj", "{F61FAD5D-3D88-40D4-BEA9-E492867160E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionComposer", "ExtensionComposer\ExtensionComposer.csproj", "{3D625794-2DF4-4D7E-B044-81682CB50285}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{7425187B-B4D3-48A5-AE15-4268C2F0A44D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7425187B-B4D3-48A5-AE15-4268C2F0A44D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7425187B-B4D3-48A5-AE15-4268C2F0A44D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25903026-0EAE-4BEC-A43B-0BEADCB7A954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25903026-0EAE-4BEC-A43B-0BEADCB7A954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25903026-0EAE-4BEC-A43B-0BEADCB7A954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25903026-0EAE-4BEC-A43B-0BEADCB7A954}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F61FAD5D-3D88-40D4-BEA9-E492867160E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F61FAD5D-3D88-40D4-BEA9-E492867160E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F61FAD5D-3D88-40D4-BEA9-E492867160E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F61FAD5D-3D88-40D4-BEA9-E492867160E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D625794-2DF4-4D7E-B044-81682CB50285}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D625794-2DF4-4D7E-B044-81682CB50285}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D625794-2DF4-4D7E-B044-81682CB50285}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D625794-2DF4-4D7E-B044-81682CB50285}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
